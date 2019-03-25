@@ -28,7 +28,8 @@
         "autobahn": "*",
         "events": "^3.0.0",
         "ip": "^1.1.5",
-        "jwt-decode": "^2.2.0"
+        "jwt-decode": "^2.2.0",
+        "jwt-simple": "^0.5.5"
     },
     "devDependencies": {
         "babel-core": "^6.26.3",
