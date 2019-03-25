@@ -1,41 +1,50 @@
 {
-  "name": "websocket-bench",
-  "version": "0.2.0",
-  "description": "tool for benchmark websocket (socket.io, faye)",
-  "main": "index.js",
-  "scripts": {
-    "test": "gulp mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/M6Web/websocket-bench.git"
-  },
-  "bin": {
-    "websocket-bench": "./bin/websocket-bench"
-  },
-  "author": "",
-  "license": "BSD",
-  "dependencies": {
-    "socket.io-client": "*",
-    "engine.io-client": "*",
-    "commander": "*",
-    "colors": "*",
-    "cli-table": "*",
-    "faye": "*",
-    "winston": "*",
-    "socket.io": "*",
-    "primus": "*",
-    "autobahn": "*"
-  },
-  "devDependencies": {
-    "chai": "*",
-    "mocha": "*",
-    "sinon": "*",
-    "gulp": "*",
-    "gulp-util": "*",
-    "gulp-jshint": "*",
-    "jshint-stylish": "*",
-    "gulp-mocha": "*",
-    "gulp-bump": "*"
-  }
+    "name": "websocket-bench",
+    "version": "0.2.0",
+    "description": "tool for benchmark websocket (socket.io, faye)",
+    "main": "index.js",
+    "scripts": {
+        "test": "gulp mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/M6Web/websocket-bench.git"
+    },
+    "bin": {
+        "websocket-bench": "./bin/websocket-bench"
+    },
+    "author": "",
+    "license": "BSD",
+    "dependencies": {
+        "socket.io-client": "*",
+        "engine.io-client": "*",
+        "commander": "*",
+        "colors": "*",
+        "cli-table": "*",
+        "faye": "*",
+        "winston": "*",
+        "socket.io": "*",
+        "primus": "*",
+        "autobahn": "*",
+        "events": "^3.0.0",
+        "ip": "^1.1.5",
+        "jwt-decode": "^2.2.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-plugin-transform-object-assign": "^6.22.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-runtime": "^6.26.0",
+        "babelify": "^8.0.0",
+        "chai": "*",
+        "mocha": "*",
+        "sinon": "*",
+        "gulp": "*",
+        "gulp-util": "*",
+        "gulp-jshint": "*",
+        "jshint-stylish": "*",
+        "gulp-mocha": "*",
+        "gulp-bump": "*"
+    }
 }
