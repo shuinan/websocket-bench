@@ -99,9 +99,9 @@ process.on('SIGINT', function() {
 
     setTimeout(function() {
 
-        if (bench.monitor.isRunning()) {
-            bench.terminate();
-        }
+        //if (bench.monitor.isRunning()) {
+        bench.terminate();
+        //}
 
     }, 2000);
 
